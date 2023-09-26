@@ -141,8 +141,6 @@ body {
     padding-right: 20px;
 }
 
-
-
 .sidebar {
     background-color: rgb(22, 150, 255);
     grid-column: 1 / 2;
@@ -150,5 +148,21 @@ body {
 }
 
 .main-content-container {
-    background-color: bisque;
+    background-color: rgb(211, 211, 211, 0.5);
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project-card-container {
+    grid-column: 1 / 2;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border: 2px solid red;
+}
+
+.project-cards {
+    height: 350px;
+    width: 250px;
+    background-color: white;
 }
