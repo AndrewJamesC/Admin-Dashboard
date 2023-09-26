@@ -29,9 +29,32 @@ body {
 }
 
 .header {
-    background-color: burlywood;
+    background-color: white;
     grid-column: 2 / -1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
+
+#search-form {
+    grid-column: 1 / 2;
+    }
+
+#search-form > input {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 0.5rem;
+    background-color: rgb(211, 211, 211, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+
+#search-form button {
+ background-color: white;
+ font-size: 1.5rem;
+ border: none;
+ margin-left: 5%;
+ }
 
 .dashboard-header {
     color: white;
