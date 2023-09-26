@@ -32,9 +32,6 @@ body {
     grid-column: 2 / -1;
 }
 
-.dashboard-list1 {
-    position: relative;
-}
 
 .dashboard-list1 > li{
     line-height: 200%;
@@ -42,45 +39,11 @@ body {
     font-size: 1.5rem;
     margin-left: 20%;
     list-style-type: none;
-    text-align:inherit;
+    }
+
+.sidebar-icon {
+    padding-right: 20px;
 }
-
-.dashboard-list1 > li::before {
-    font-family: "Font Awesome 5 Free";
-    padding-right: 0;
-    vertical-align: middle;
-    font-weight: 900;
-    color: white;
-    height: auto;
-    font-size: 20px;
-}
-
-.dashboard-list1 li:first-of-type::before {
-    content: "\f015";
-}
-
-.dashboard-list1 li:nth-of-type(2)::before {
-    content: "\f2c2";
-}
-
-.dashboard-list1 li:nth-of-type(3)::before {
-    content: "\f27a";
-}
-
-.dashboard-list1 li:nth-of-type(4)::before {
-    content: "\f017";
-}
-
-
-.dashboard-list1 li:nth-of-type(5)::before {
-    content: "\f249";
-}
-
-.dashboard-list1 li:last-of-type::before {
-    content: "\e533";
-    
-}
-
 
 
 
