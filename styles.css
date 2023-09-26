@@ -189,7 +189,9 @@ body {
     grid-row: 1 /2;
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-right: 50px;
+    margin-bottom: 100px
 }
 
 .announcements-container h2 {
@@ -223,3 +225,18 @@ body {
     font-size: 1rem;
     
 }
+
+.trending-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4 1fr);
+    margin-right: 50px;
+    margin-bottom: 50%;
+}
+ .trending h2 {
+    margin-bottom: 3%;
+ }
+.trending {
+    background-color: white;
+    }
+
