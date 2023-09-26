@@ -32,7 +32,7 @@ body {
     background-color: white;
     grid-column: 2 / -1;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
 }
 
 #search-form {
@@ -51,7 +51,7 @@ body {
 
 #search-form button {
  background-color: white;
- font-size: 1.5rem;
+ font-size: 1.2rem;
  border: none;
  margin-left: 5%;
  }
@@ -63,7 +63,11 @@ body {
     padding: 2rem;
 }
 
-
+.header-name-icons-container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+    padding-top: 5%;
+}
 
 .sidebar li {
     line-height: 200%;
