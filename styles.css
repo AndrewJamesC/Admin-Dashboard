@@ -22,6 +22,7 @@ body {
 }
 
 .grid-container {
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
@@ -32,14 +33,30 @@ body {
     grid-column: 2 / -1;
 }
 
+.dashboard-header {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 12%;
+    padding: 2rem;
+}
 
-.dashboard-list1 > li{
+
+
+.sidebar li {
     line-height: 200%;
     color: white;
-    font-size: 1.5rem;
-    margin-left: 20%;
+    font-size: 1.8rem;
+    margin-left: 15%;
     list-style-type: none;
+    
     }
+
+.dashboard-list1 {
+    margin-bottom: 15%;
+}
+.dashboard-list2 {
+    margin-bottom: 20%;;
+}
 
 .sidebar-icon {
     padding-right: 20px;
